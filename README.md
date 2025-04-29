@@ -17,12 +17,14 @@ C:/Users/<username>/AppData/Local/
 
 The essential structure (excluding the plugin files) of the nvim folder looks like
 
+```
 nvim/
 |--- init.lua
 |--- lua/
       |--- config/
       |       |--- lazy.lua
       |--- plugins/
+```
 
 - init.lua : Contains the basic configuration (line numbers, keeping syntax highlighting on, etc.). **Importantly, here we include the config/lazy.lua file (through a require call)**.
 - lazy.lua : configuration to include the Lazy-nvim plugin manager. **Here, we add the ability to go through the files in the plugins folder, and include them**.
@@ -43,4 +45,4 @@ Most of the plugins have been borrowed from the following two places:
 - nvim-lua, https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
 - tjdevries, https://github.com/tjdevries/config.nvim/blob/master/lua/custom/plugins/
 
-- ChatGPT is also a great resource to help build some small things into the config without having to refer to some other resource.
+ChatGPT is also a great resource to help build some small things into the config without having to refer to some other resource.
