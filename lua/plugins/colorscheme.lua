@@ -107,7 +107,7 @@ base16_standard = {
 		-- all 16 different things in the editor that can be colored
 		local default_bg = deep_blue	-- Default Background
 		local light_bg = "#1d393d"		-- Lighter Background (e.g. for status bars, line nr)
-		local selection_bg = "#364f52" 	-- Selection Background
+		local selection_bg = "#4f6568" 	-- Selection Background
 		local comments_text = forest_green 		-- comments, invisibles, line highlighting
 		local dark_text_fg = "#1d393d"				-- Dark Foreground (e.g. status bars)
 		local default_text_fg = ghost_white		-- Default Foreground, Main text color
