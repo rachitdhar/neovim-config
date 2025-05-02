@@ -36,6 +36,7 @@ nvim/
 - lsp.lua : for LSP config (language server), to allow abilities like 'go to references', 'go to implementation', 'go to definition', etc.
 - dap.lua : for debugging controls
 - colorscheme.lua : for complete color customization (either using some theme, or by manual customization)
+- autocompletion.lua : for text autocompletion (a dropdown that shows up while typing, to give suggestions)
 
 ## References / Resources Used
 
