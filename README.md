@@ -37,6 +37,7 @@ nvim/
 - dap.lua : for debugging controls
 - colorscheme.lua : for complete color customization (either using some theme, or by manual customization)
 - autocompletion.lua : for text autocompletion (a dropdown that shows up while typing, to give suggestions)
+- statusline.lua : for the styling of the statusline
 
 ## Mapping Caps Lock to Esc key
 
