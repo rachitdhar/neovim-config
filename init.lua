@@ -1,5 +1,5 @@
 vim.o.number = true 			-- show line numbers
---vim.o.relativenumber = true 		-- relative line numbers
+vim.o.relativenumber = true 		-- relative line numbers
 vim.o.syntax = "on" 			-- enable syntax highlighting
 vim.o.mouse = "a" 			-- enable mouse support
 
