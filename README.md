@@ -44,7 +44,7 @@ nvim/
 In Windows, one way I have found to map Caps Lock to Esc, in through the use of the tool Uncap: https://github.com/susam/uncap
 Just running uncap.exe in the background maps the Caps Lock key to Esc key. To automate this task, the following can be included in the init.lua file:
 
-```
+```lua
 -- run uncap.exe if it is not already running (to map caps lock to esc key)
 if vim.loop.os_uname().sysname == "Windows_NT" then
   local handle = io.popen('tasklist /FI "IMAGENAME eq uncap.exe"')
