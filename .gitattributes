@@ -1,0 +1,3 @@
+"lua/config/**" linguist-vendored
+"lua/plugins/**" linguist-vendored
+"lua/plugins/colorscheme.lua" -linguist-vendored
